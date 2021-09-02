@@ -1,102 +1,83 @@
 /* Font color of the items in the navbar */
 .nav-link {
-    color: rgb(180,151,123) !important;
+  color: rgb(180,151,123) !important;
 }
 
 /* Select the element which has an ID of header and also a class name of callout. */
 .nav-item.join-us {
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 25%;
-    padding: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 25%;
+  padding: 10px;
 }
 /* To set the anchor links color */
 .black-link {
-    text-decoration:black !important;
-    color: black !important;
- }
-
- .footer {
-     text-align: center;
-     margin-top: 3rem;
- }
-
- /* To change the color of the social media icons */
- .social-media i {
-    text-decoration:black !important;
-    color: black !important;
- }
-
-/*Landing Page Buttons*/
- .button {
-    background-color: transparent;
-    border: 2px solid black;
-    border-color: #C2B280;
-    color: 	#C2B280;
-    padding: 20px;
-    text-align: center;
-    display: inline-block;
-    margin: 2px 1px;
-    font-size: 14px;
-    cursor: pointer;
-    border-radius: 30px;
+  text-decoration:black !important;
+  color: black !important;
 }
 
- /* Podcast Series Section */
- #podcasttitle h6, 
- #podcasttitle h2,
- #podcasttitle p {
-    padding-left: 150px;
- }
+.footer {
+   text-align: center;
+   margin-top: 3rem;
+}
 
- #podcasttitle h2 {
-    width: 600px;
- }
+/* To change the color of the social media icons */
+.social-media i {
+  text-decoration:black !important;
+  color: black !important;
+}
 
- #podcasttitle p {
-    width: 650px;
-    height: 650px;
- }
+/*Landing Page Buttons*/
+.button {
+  background-color: transparent;
+  border: 2px solid black;
+  border-color: #C2B280;
+  color: 	#C2B280;
+  padding: 20px;
+  text-align: center;
+  display: inline-block;
+  margin: 2px 1px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 30px;
+}
 
- #podcast1 {
-    height: 500px;
-    margin-top: 90px;
-    margin-bottom: auto;
-    margin-right: 150px;
- }
+/* Landing Page Podcast Series */
+/* #landingpodcast {*/
+/*   margin-top: 35px;*/
+/*   margin-bottom: 35px;*/
+/*}*/
 
- #podcast2 img {
-    padding-right: 0%;
-    width: 325px;
-    height: 200px;
- }
-
- #podcast3 img {
-    padding-left: 0%;
-    width: 325px;
-    height: 200px;
- }
-
-/* Who We Are Image Responsive Layout */
-  .responsive { 
-   width: 100%;
-   margin: auto;
-   height: auto;
- }
+/* Who We Are Section */
 
 /* Padding around Who We Are horitontal section */
- .pad-container {
-   width: 100%; 
-   padding-top: 5em; 
-   padding-bottom: 5em;
- }
+.pad-container {
+ width: 100%; 
+ padding-top: 5em; 
+ padding-bottom: 5em;
+}
 
 /* Padding for info textbox */
- .pad-text {
-   padding-bottom: 2em;
- }
+.pad-text {
+ padding-bottom: 2em;
+}
 
 /* Font color for Section title and description paragraph */
- .pad-text h5 , .pad-text p {
-   color: #696969;
- }
+.pad-text h5 , .pad-text p {
+ color: #696969;
+}
+
+/* Podcast Section */
+#podcast .flex-container {
+  display: flex
+}
+
+#podcast #podcast-thumbnails .flex-container .flex-child {
+  flex: 1;
+  padding: 0.1em
+}
+
+#podcast #podcast-thumbnails .flex-child img {
+  width: 100%;
+  height: 100%;
+}

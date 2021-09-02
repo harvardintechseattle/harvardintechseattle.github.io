@@ -1,0 +1,19 @@
+/* Call for Action Page */
+.header {
+    padding-top: 4em; 
+    padding-bottom: 4em;
+}
+
+.boxed {
+    position: relative;
+    width: 65%;
+    height: 50%;
+    background-color: #F5F5F5;
+    padding: 5em 8em 10em 4em;
+    color: #404040;
+}
+
+.boxed p {
+    color: #6f6957;
+    margin-bottom: 0.5em !important;;
+}
