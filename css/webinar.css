@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 /* -------------- Most Recent/Upcoming Webinar */
 .page-section {
     margin-top: 5rem;
@@ -95,6 +99,23 @@
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
+.read-more-btn {
+    line-height: 1.5;
+    color: #e6a756;
+    cursor: pointer;
+    padding-left: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 0px solid transparent;
+}
+
+.read-more-btn:hover {
+    color: black;
+}
+
 @media (prefers-reduced-motion: reduce) {
     .btn {
         transition: none;
@@ -146,6 +167,7 @@ fieldset:disabled .btn {
 }
 
 @media (max-width: 992px) {
+
     .wrapper-list,
     .wrapper-grid {
         grid-template-columns: 1fr;
