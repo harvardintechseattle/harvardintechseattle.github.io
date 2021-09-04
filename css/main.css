@@ -4,12 +4,32 @@
 }
 
 /* Select the element which has an ID of header and also a class name of callout. */
-.nav-item.join-us {
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 25%;
-  padding: 10px;
+
+.navbar-container {
+    margin-bottom: 2em;
 }
+
+.joinus-button {
+    background-color: transparent;
+    border: 2px solid black;
+    border-color: #C2B280;
+    color: 	#C2B280;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.joinus-button .joinus-text {
+    padding: 0.5em;
+}
+
+/* To vertically-center the items on the nav bar */
+.nav-item {
+    margin: auto;
+}
+
 /* To set the anchor links color */
 .black-link {
   text-decoration:black !important;
@@ -18,7 +38,7 @@
 
 .footer {
    text-align: center;
-   margin-top: 3rem;
+   margin-top: 10em;
 }
 
 /* To change the color of the social media icons */
@@ -41,12 +61,6 @@
   cursor: pointer;
   border-radius: 30px;
 }
-
-/* Landing Page Podcast Series */
-/* #landingpodcast {*/
-/*   margin-top: 35px;*/
-/*   margin-bottom: 35px;*/
-/*}*/
 
 /* Who We Are Section */
 

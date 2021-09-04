@@ -1,4 +1,4 @@
-/* Call for Action Page */
+/*Young Professionals Page*/
 .header {
     padding-top: 4em; 
     padding-bottom: 4em;
@@ -9,7 +9,7 @@
     position: relative;
     background-color: #F5F5F5;
     width: 60%;
-    height: 20em;
+    height: 30em;
     padding: 5em 5em;
     color: #404040;
     margin: 5em 0 5em;
@@ -17,5 +17,5 @@
 
 .boxed p {
     color: #6f6957;
-    margin-bottom: 0.5em !important;;
+    margin: 0.5em !important;;
 }

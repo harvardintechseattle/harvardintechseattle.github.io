@@ -1,0 +1,34 @@
+/*Contact Page*/
+.header {
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+.boxed {
+    position: relative;
+    width: 65%;
+    height: 35%;
+    background-color: #F5F5F5;
+    padding: 4.5em 8em 4.5em 4em;
+    color: #404040;
+}
+
+.boxed p {
+    color: #6f6957;
+    margin: 0.5em !important;
+    ;
+}
+
+.icon {
+    width: 6rem;
+    text-align: center;
+    margin-right: 1rem;
+}
+
+span {
+    display: inline-block;
+}
+
+span .fa-circle {
+    color: rgb(104, 92, 78);
+}
