@@ -1,0 +1,153 @@
+/*Team Page*/
+
+/* Header Box Color and Padding */
+.bgd {
+  padding: 2em;
+  background-color: #F5F5F5;
+}
+
+.header {
+  padding-top: 2em; 
+  padding-bottom: 2em;
+}
+
+/* Header Textbox */
+.boxed {
+  position: relative;
+  background-color: #F5F5F5;
+  width: 60%;
+  height: 20em;
+  padding: 5em 5em;
+  color: #404040;
+  margin: 5em 0 5em;
+}
+
+/* Float four columns side by side */
+.column-float {
+  float: left;
+  width: 25%;
+  padding: 1.75em 1em;
+  height: auto;
+  position: center;
+  display: block;
+
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 0.1em 0.3em 0 rgba(0, 0, 0, 0.2);
+  padding: 0.8em;
+  text-align: left;
+  background-color: #f1f1f1;
+}
+
+.card h2 {
+  font-size: 1.0em;
+  margin-bottom: 0em;
+}
+
+.card p {
+  font-size: 0.8em;
+  color: #C2B280;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 0.6em 1.2em 0 rgba(0,0,0,0.2);
+}
+
+/* Add padding inside the card text container */
+.card-text {
+  padding: 0.2em 0.7em;
+  height: 7em;
+}
+
+.card-image {
+  width: 10em;
+  height: 10em;
+  object-fit: cover;
+  margin: 1.2em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.linkedIn-pad {
+  margin-left: -0.2em !important;
+  margin-top: 0.1em;
+}
+
+/* Styling the LinkedIn link */
+.link {
+  color: #C2B280;
+  text-decoration: underline;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 1199px) {
+  .column-float {
+    width: 30%;
+    padding: 1.75em 1em;
+  }
+  .card h2 {
+    font-size: 1m;
+    margin-bottom: 0em;
+  }
+  .card p {
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .column-float {
+    width: 40%;
+    padding: 1.5em 0.75em;
+  }
+  .card h2 {
+    font-size: 1m;
+    margin-bottom: 0em;
+  }
+  .card p {
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .column-float {
+    width: 50%;
+    padding: 1.25em 0.5em;
+  }
+  .card h2 {
+    font-size: 1em;
+    margin-bottom: 0em;
+  }
+  .card p {
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (max-width: 528px) {
+  .column-float {
+    width: 100%;
+    padding: 1em 2em;
+  }
+  .card h2 {
+    font-size: 1em;
+    margin-bottom: 0em;
+  }
+  .card p {
+    font-size: 0.8em;
+  }
+} 
+
+/* Paginiation */
+.pagination a {
+  color: black;
+  float: left;
+  padding: 1em 2em;
+  text-decoration: none;
+}
+
+.btn {
+  margin-left: 2em;
+  margin-right: 2em;
+}
