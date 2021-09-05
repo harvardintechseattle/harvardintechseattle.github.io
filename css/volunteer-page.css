@@ -20,7 +20,12 @@
     padding: 5em 5em;
     color: #404040;
     margin: 5em 0 5em;
-  }
+}
+
+.boxed p {
+    color: #6f6957;
+    margin-bottom: 0.5em !important;;
+}
 
 .w3-button {
     margin-left: 1.5em;
@@ -38,3 +43,58 @@
     line-height:1.1em;
     font-weight: bold;
 }
+
+/* Responsive Header Textbox */
+@media screen and (max-width: 1199px) {
+    .boxed h4 {
+      font-size: 1em;
+    }
+    .boxed p {
+      font-size: 0.8em;
+    }
+}
+  
+@media screen and (max-width: 1024px) {
+    .boxed h4 {
+        font-size: 0.9em;
+    }
+    .boxed p {
+        font-size: 0.75em;
+    }
+}
+  
+@media screen and (max-width: 768px) {
+    .boxed {
+        padding: 5em 3.25em;
+    }
+    .boxed h4 {
+        font-size: 0.8em;
+    }
+    .boxed p {
+        font-size: 0.6em;
+    }
+}
+
+@media screen and (max-width: 528px) {
+    .boxed {
+        padding: 4em 2.75em;
+    }
+    .boxed h4 {
+        font-size: 0.7em;
+    }
+    .boxed p {
+        font-size: 0.5em;
+    }
+} 
+
+@media screen and (max-width: 375px) {
+    .boxed {
+        padding: 3.25em 2em;
+    }
+    .boxed h4 {
+        font-size: 0.65em;
+    }
+    .boxed p {
+        font-size: 0.45em;
+    }
+} 

@@ -19,87 +19,81 @@
 <body>
     <div class="container">
         <!-- Logo in the navbar -->
-        <div class="row">
-            <div class="col-md-1 mx-auto">
-                <a class="navbar-brand" href="#">
-                    <img src="assets/logo/HiTS-Logo-new.png" width="100%" height="100%" class="d-inline-block align-top" alt="">
+        <div class="logo-container" style="margin-top: 1em">
+            <a href="index.html">
+                <img src="assets/logo/HiTS-Logo-new.png" class="rounded mx-auto d-block" alt="Logo" width="100em"
+                    height="100em">
+            </a>
+        </div>
 
-                </a>
+        <!--  Join Us  -->
+        <div class="row">
+            <div class="col-9"></div>
+            <div class="col-3" style="text-align: center; margin: auto">
+                <div class="joinus-button">
+                    <span class="joinus-text">Join Us</span>
+                </div>
             </div>
         </div>
 
+
         <!-- Navbar -->
-        <div class="row">
-            <div class="col-md-10 mx-auto">
+        <div class="container">
+            <div class="mx-auto navbar-container">
+                <div class="row">
+                    <div class="col-12-md" style="text-align: center; margin: auto">
+                        <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+                            <div class="container">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false" aria-label="Toggle navigation"
+                                    style="text-align: center; margin: auto">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
 
-                <nav class="navbar navbar-expand-lg navbar-light sticky-top">
-
-
-                    <div class="row">
-                        <div class="col">
-                            <button class="navbar-toggler" type="button" data-toggle="collapse"
-                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-
-                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul class="navbar-nav mr-auto">
-                                    <li class="nav-item active">
-                                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            Program
-                                        </a>
-                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <a class="dropdown-item" href="webinars.html">Webinars</a>
-                                            <a class="dropdown-item" href="podcast.html">Podcast Series</a>
-                                            <div class="dropdown-divider"></div>
-                                            <a class="dropdown-item" href="#">Something else here</a>
-                                        </div>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            Volunteer Opportunities
-                                        </a>
-                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <a class="dropdown-item" href="#">Action</a>
-                                            <a class="dropdown-item" href="#">Another action</a>
-                                            <div class="dropdown-divider"></div>
-                                            <a class="dropdown-item" href="#">Something else here</a>
-                                        </div>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            Harvard in Tech Seattle Buzz
-                                        </a>
-                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <a class="dropdown-item" href="volunteer-page.html">Action</a>
-                                            <a class="dropdown-item" href="#">Another action</a>
-                                            <div class="dropdown-divider"></div>
-                                            <a class="dropdown-item" href="#">Something else here</a>
-                                        </div>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Team</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="contact.html">Contact Us</a>
-                                    </li>
-                                    <!-- TODO: Update design -->
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Join Us</a>
-                                    </li>
-                                </ul>
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="navbar-nav mr-auto">
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="index.html">Home <span
+                                                    class="sr-only">(current)</span></a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                                                role="button" data-toggle="dropdown" aria-haspopup="true"
+                                                aria-expanded="false">
+                                                Program
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <a class="dropdown-item" href="webinars.html">Webinar</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item" href="podcast.html">Podcast Series</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item" href="young-professionals.html">Young
+                                                    Professionals</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item" href="call-for-action.html">Call For Action</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item" href="events.html">Events</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="volunteer-page.html">Volunteer Opportunities</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="buzz.html">Harvard in Tech Seattle Buzz</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="team.html">Team</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="contact.html">Contact Us</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-
-                        </div>
+                        </nav>
                     </div>
-                </nav>
+                </div>
             </div>
         </div>
 
@@ -107,17 +101,26 @@
         <section class="page-section clearfix">
             <div class="container">
                 <div class="intro">
-                    <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="assets/HiTS Podcast Spencer Rascoff.png" alt="..." />
+                    <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="assets/HiTS Podcast Spencer Rascoff.png"
+                        alt="..." />
                     <div class="intro-text left-0  bg-faded p-5 rounded">
                         <h2 class="section-heading">
                             <span class="section-heading-lower">Spencer Rascoff</span>
                         </h2>
                         <h4 class="mb-4">Co-founder & Chair, Pacaso, Supernova SPAC, dot.LA</h4>
-                        <p class="mb-3">Spencer Rascoff is the CEO of Pacaso. He was previously the CEO of Zillow for over 13 years as well as co-founding and/or being board members of many other companies e.g. dot.LA, Palantir, 75 & Sunny, etc.</p>
+                        <p class="mb-3">Spencer Rascoff is the CEO of Pacaso. He was previously the CEO of Zillow for
+                            over 13 years as well as co-founding and/or being board members of many other companies e.g.
+                            dot.LA, Palantir, 75 & Sunny, etc.</p>
                         <div class="row">
-                            <div><a class="btn btn-primary btn-xl col-12" href="https://soundcloud.com/user-616895977/episode-6-spencer-rascoff" class="card-link">SoundCloud</a></div>
-                            <div><a class="btn btn-primary btn-xl col-12" href="https://open.spotify.com/episode/2s7xeL8UUp9OLI4cYwNfO1?si=MPmh5O59R0yWKhObj1VWsw&dl_branch=1" class="card-link">Spotify</a></div>
-                            <div><a class="btn btn-primary btn-xl col-12" href="https://podcasts.apple.com/us/podcast/harvard-in-tech-seattle-podcast-episode-6-spencer-rascoff/id1547518984?i=1000524831488" class="card-link">Apple Podcast</a></div>
+                            <div><a class="btn btn-primary btn-xl col-12"
+                                    href="https://soundcloud.com/user-616895977/episode-6-spencer-rascoff"
+                                    class="card-link">SoundCloud</a></div>
+                            <div><a class="btn btn-primary btn-xl col-12"
+                                    href="https://open.spotify.com/episode/2s7xeL8UUp9OLI4cYwNfO1?si=MPmh5O59R0yWKhObj1VWsw&dl_branch=1"
+                                    class="card-link">Spotify</a></div>
+                            <div><a class="btn btn-primary btn-xl col-12"
+                                    href="https://podcasts.apple.com/us/podcast/harvard-in-tech-seattle-podcast-episode-6-spencer-rascoff/id1547518984?i=1000524831488"
+                                    class="card-link">Apple Podcast</a></div>
                         </div>
                     </div>
                 </div>
@@ -137,11 +140,16 @@
                                 <h4 class="card-title">Spencer Rascoff</h4>
                                 <h6>Co-founder & Chair, Pacaso, Supernova SPAC, dot.LA</h6>
                                 <br>
-                                <p class="card-text">Spencer Rascoff is the CEO of Pacaso. He was previously the CEO of Zillow for over 13 years as well as co-founding and/or being board members of many other companies e.g. dot.LA, Palantir, 75 & Sunny, etc.</p>
+                                <p class="card-text">Spencer Rascoff is the CEO of Pacaso. He was previously the CEO of
+                                    Zillow for over 13 years as well as co-founding and/or being board members of many
+                                    other companies e.g. dot.LA, Palantir, 75 & Sunny, etc.</p>
                                 <br>
-                                <a href="https://soundcloud.com/user-616895977/episode-6-spencer-rascoff" class="card-link">SoundCloud</a>
-                                <a href="https://open.spotify.com/episode/2s7xeL8UUp9OLI4cYwNfO1?si=MPmh5O59R0yWKhObj1VWsw&dl_branch=1" class="card-link">Spotify</a> 
-                                <a href="https://podcasts.apple.com/us/podcast/harvard-in-tech-seattle-podcast-episode-6-spencer-rascoff/id1547518984?i=1000524831488" class="card-link">Apple Podcast</a>
+                                <a href="https://soundcloud.com/user-616895977/episode-6-spencer-rascoff"
+                                    class="card-link">SoundCloud</a>
+                                <a href="https://open.spotify.com/episode/2s7xeL8UUp9OLI4cYwNfO1?si=MPmh5O59R0yWKhObj1VWsw&dl_branch=1"
+                                    class="card-link">Spotify</a>
+                                <a href="https://podcasts.apple.com/us/podcast/harvard-in-tech-seattle-podcast-episode-6-spencer-rascoff/id1547518984?i=1000524831488"
+                                    class="card-link">Apple Podcast</a>
                             </div>
                         </div>
                     </div>
@@ -153,10 +161,15 @@
                                 <h4 class="card-title">Steven Maheshwary</h4>
                                 <h6>Director of Economic Development - IT, Washington State</h6>
                                 <br>
-                                <p class="card-text">Steven Maheshwary is a tech industry veteran who is passionate about the nexus of the tech and positive social impact through fostering entrepreunership, building partnerships and empowering communities.</p>
-                                <a href="https://soundcloud.com/user-616895977/harvard-in-tech-seattle-podcast-episode-1-steven-maheshwary" class="card-link">SoundCloud</a>
-                                <a href="https://open.spotify.com/episode/4XMFIFruYPtJJvuSWhPT03?si=lwgF90WxST6tXhtmp1YnZA&dl_branch=1" class="card-link">Spotify</a> 
-                                <a href="https://podcasts.apple.com/us/podcast/harvard-in-tech-seattle-podcast-episode-1-steven-maheshwary/id1547518984?i=1000504437919" class="card-link">Apple Podcast</a>
+                                <p class="card-text">Steven Maheshwary is a tech industry veteran who is passionate
+                                    about the nexus of the tech and positive social impact through fostering
+                                    entrepreunership, building partnerships and empowering communities.</p>
+                                <a href="https://soundcloud.com/user-616895977/harvard-in-tech-seattle-podcast-episode-1-steven-maheshwary"
+                                    class="card-link">SoundCloud</a>
+                                <a href="https://open.spotify.com/episode/4XMFIFruYPtJJvuSWhPT03?si=lwgF90WxST6tXhtmp1YnZA&dl_branch=1"
+                                    class="card-link">Spotify</a>
+                                <a href="https://podcasts.apple.com/us/podcast/harvard-in-tech-seattle-podcast-episode-1-steven-maheshwary/id1547518984?i=1000504437919"
+                                    class="card-link">Apple Podcast</a>
                             </div>
                         </div>
                     </div>
@@ -168,10 +181,16 @@
                                 <h4 class="card-title">Aran Khanna</h4>
                                 <h6>CEO and Co-founder, Reserved.ai</h6>
                                 <br>
-                                <p class="card-text">Aran Khanna is co-founder and CEO of Reserved.ai. He graduated from Harvard College in 2016. He has previously worked at several startups, one of which was acquired by Amazon Web Services (AWS). One of the principles he follows and explains in this episode is extreme ownership.</p>
-                                <a href="https://soundcloud.com/user-616895977/episode-5-aran-khanna" class="card-link">SoundCloud</a>
-                                <a href="https://open.spotify.com/episode/7DM8S55UZRGq93QNKMAQoP?si=FIVxEUHVSS6LAY0sefP-AQ&dl_branch=1" class="card-link">Spotify</a> 
-                                <a href="https://podcasts.apple.com/us/podcast/harvard-in-tech-seattle-podcast-episode-5-aran-khanna/id1547518984?i=1000520002062" class="card-link">Apple Podcast</a>
+                                <p class="card-text">Aran Khanna is co-founder and CEO of Reserved.ai. He graduated from
+                                    Harvard College in 2016. He has previously worked at several startups, one of which
+                                    was acquired by Amazon Web Services (AWS). One of the principles he follows and
+                                    explains in this episode is extreme ownership.</p>
+                                <a href="https://soundcloud.com/user-616895977/episode-5-aran-khanna"
+                                    class="card-link">SoundCloud</a>
+                                <a href="https://open.spotify.com/episode/7DM8S55UZRGq93QNKMAQoP?si=FIVxEUHVSS6LAY0sefP-AQ&dl_branch=1"
+                                    class="card-link">Spotify</a>
+                                <a href="https://podcasts.apple.com/us/podcast/harvard-in-tech-seattle-podcast-episode-5-aran-khanna/id1547518984?i=1000520002062"
+                                    class="card-link">Apple Podcast</a>
                             </div>
                         </div>
                     </div>
@@ -183,10 +202,15 @@
                                 <h4 class="card-title">My Le Goel</h4>
                                 <h6>CEO and Founder, Flight Live Inc.</h6>
                                 <br>
-                                <p class="card-text">My Le is the CEO of FlightLive, a mobile wellness technology platform for live, interactive, virtual personal fitness training that matches clients with a curated list of certified personal trainers and yoga instructors.</p>
-                                <a href="https://soundcloud.com/user-616895977/my-le-goel" class="card-link">SoundCloud</a>
-                                <a href="https://open.spotify.com/episode/2JXKfaj3Fx7WxS0M1EAGjt?si=_xGFmJE2QSuu2O_ju0f5yQ&dl_branch=1" class="card-link">Spotify</a> 
-                                <a href="https://podcasts.apple.com/us/podcast/harvard-in-tech-seattle-podcast-episode-2-my-le-goel/id1547518984?i=1000504437918" class="card-link">Apple Podcast</a>
+                                <p class="card-text">My Le is the CEO of FlightLive, a mobile wellness technology
+                                    platform for live, interactive, virtual personal fitness training that matches
+                                    clients with a curated list of certified personal trainers and yoga instructors.</p>
+                                <a href="https://soundcloud.com/user-616895977/my-le-goel"
+                                    class="card-link">SoundCloud</a>
+                                <a href="https://open.spotify.com/episode/2JXKfaj3Fx7WxS0M1EAGjt?si=_xGFmJE2QSuu2O_ju0f5yQ&dl_branch=1"
+                                    class="card-link">Spotify</a>
+                                <a href="https://podcasts.apple.com/us/podcast/harvard-in-tech-seattle-podcast-episode-2-my-le-goel/id1547518984?i=1000504437918"
+                                    class="card-link">Apple Podcast</a>
                             </div>
                         </div>
                     </div>
@@ -198,11 +222,16 @@
                                 <h4 class="card-title">Bridget Frey</h4>
                                 <h6>Chief Technology Officer, Redfin</h6>
                                 <br>
-                                <p class="card-text">As Redfin's Chief Technology Officer, Bridget leads the software engineering team, which she has grown to more than 150 engineers in Seattle and San Francisco.</p>
-                                <br>  
-                                <a href="https://soundcloud.com/user-616895977/episode-3-bridget-frey" class="card-link">SoundCloud</a>
-                                <a href="https://open.spotify.com/episode/1kQUYTJyXEdbWRqc5YFZVw?si=uXDqswYPQvK1bUfC3kvNtw&dl_branch=1" class="card-link">Spotify</a> 
-                                <a href="https://podcasts.apple.com/us/podcast/harvard-in-tech-seattle-podcast-episode-3-bridget-frey/id1547518984?i=1000507775956" class="card-link">Apple Podcast</a>
+                                <p class="card-text">As Redfin's Chief Technology Officer, Bridget leads the software
+                                    engineering team, which she has grown to more than 150 engineers in Seattle and San
+                                    Francisco.</p>
+                                <br>
+                                <a href="https://soundcloud.com/user-616895977/episode-3-bridget-frey"
+                                    class="card-link">SoundCloud</a>
+                                <a href="https://open.spotify.com/episode/1kQUYTJyXEdbWRqc5YFZVw?si=uXDqswYPQvK1bUfC3kvNtw&dl_branch=1"
+                                    class="card-link">Spotify</a>
+                                <a href="https://podcasts.apple.com/us/podcast/harvard-in-tech-seattle-podcast-episode-3-bridget-frey/id1547518984?i=1000507775956"
+                                    class="card-link">Apple Podcast</a>
                             </div>
                         </div>
                     </div>
@@ -213,15 +242,19 @@
                             <div class="card-body">
                                 <h4 class="card-title">Laura Butler</h4>
                                 <h6>CEO and Co-founder, UpLift Group Inc.</h6>
-                                <p class="card-text mb-4">Laura Butler is Co-founder and CEO/CTO of UpLift Group. She is also an amateur angel and LP who takes a fairy godmother approach.</p>
+                                <p class="card-text mb-4">Laura Butler is Co-founder and CEO/CTO of UpLift Group. She is
+                                    also an amateur angel and LP who takes a fairy godmother approach.</p>
                                 <br><br>
-                                <a href="https://soundcloud.com/user-616895977/harvard-in-tech-seattle-podcast-episode-4-laura-butler" class="card-link">SoundCloud</a>
-                                <a href="https://open.spotify.com/episode/16L6HOcGMMgqDGNcE6ZaX3?si=s4eCouVfQq-1HeN9X4XxJg&dl_branch=1" class="card-link">Spotify</a> 
-                                <a href="https://podcasts.apple.com/us/podcast/harvard-in-tech-seattle-podcast-episode-4-laura-butler/id1547518984?i=1000510594113" class="card-link">Apple Podcast</a>
+                                <a href="https://soundcloud.com/user-616895977/harvard-in-tech-seattle-podcast-episode-4-laura-butler"
+                                    class="card-link">SoundCloud</a>
+                                <a href="https://open.spotify.com/episode/16L6HOcGMMgqDGNcE6ZaX3?si=s4eCouVfQq-1HeN9X4XxJg&dl_branch=1"
+                                    class="card-link">Spotify</a>
+                                <a href="https://podcasts.apple.com/us/podcast/harvard-in-tech-seattle-podcast-episode-4-laura-butler/id1547518984?i=1000510594113"
+                                    class="card-link">Apple Podcast</a>
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </section>
@@ -233,13 +266,13 @@
                     <div class="col">
                         <span class="text-muted">Program</span>
                         <br>
-                        <a href="#"><span class="black-link">Webinar</span></a>
+                        <a href="webinars.html"><span class="black-link">Webinar</span></a>
                         <br>
-                        <a href="#"><span class="black-link">Podcast</span></a>
+                        <a href="podcast.html"><span class="black-link">Podcast</span></a>
                         <br>
-                        <a href="#"><span class="black-link">Young Professionals</span></a>
+                        <a href="young-professionals.html"><span class="black-link">Young Professionals</span></a>
                         <br>
-                        <a href="#"><span class="black-link">Call For Action</span></a>
+                        <a href="call-for-action.html"><span class="black-link">Call For Action</span></a>
                         <br>
                         <a href="#"><span class="black-link">Events</span></a>
                     </div>
@@ -250,16 +283,16 @@
                         <br>
                         <a href="#"><span class="black-link">Participants</span></a>
                         <br>
-                        <a href="#"><span class="black-link">Volunteer</span></a>
+                        <a href="volunteer-page.html"><span class="black-link">Volunteer</span></a>
                         <br><br>
                         <span class="text-muted">Volunteer Opportunities</span>
                         <br>
                         <a href="#"><span class="black-link">Open Reqs</span></a>
                     </div>
                     <div class="col">
-                        <a href="#"><span class="text-muted">Team</span></a>
+                        <a href="team.html"><span class="text-muted">Team</span></a>
                         <br>
-                        <a href="#"><span class="text-muted">Contact Us</span></a>
+                        <a href="contact.html"><span class="text-muted">Contact Us</span></a>
                         <br>
                         <div class="social-media">
                             <a href="https://www.linkedin.com/company/harvard-in-tech-seattle/"><i
@@ -281,13 +314,13 @@
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-    </script>
+        </script>
 
     <script>
         $(function () {

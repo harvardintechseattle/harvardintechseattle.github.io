@@ -1,0 +1,19 @@
+.img {
+  position: absolute;
+  padding-left: 300px;
+  margin-top: 70px;
+  right: 20%;
+}
+
+.bigCard {
+  width: 540px;
+}
+
+@media screen and (max-width: 1200px) {
+  .img {
+    display: none;
+  }
+  .bigCard {
+    width: 250px;
+  }
+}
