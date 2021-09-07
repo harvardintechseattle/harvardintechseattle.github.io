@@ -112,13 +112,13 @@
                             over 13 years as well as co-founding and/or being board members of many other companies e.g.
                             dot.LA, Palantir, 75 & Sunny, etc.</p>
                         <div class="row">
-                            <div><a class="btn btn-primary btn-xl col-12"
+                            <div><a class="button"
                                     href="https://soundcloud.com/user-616895977/episode-6-spencer-rascoff"
                                     class="card-link">SoundCloud</a></div>
-                            <div><a class="btn btn-primary btn-xl col-12"
+                            <div><a class="button"
                                     href="https://open.spotify.com/episode/2s7xeL8UUp9OLI4cYwNfO1?si=MPmh5O59R0yWKhObj1VWsw&dl_branch=1"
                                     class="card-link">Spotify</a></div>
-                            <div><a class="btn btn-primary btn-xl col-12"
+                            <div><a class="button"
                                     href="https://podcasts.apple.com/us/podcast/harvard-in-tech-seattle-podcast-episode-6-spencer-rascoff/id1547518984?i=1000524831488"
                                     class="card-link">Apple Podcast</a></div>
                         </div>
@@ -130,7 +130,31 @@
         <!-- Previous Podcasts -->
         <section class="upcoming-Webinars">
             <div class="container py-5">
-                <p>Latest Podcast</p>
+                <div class="row">
+                    <p>Latest Podcast</p>
+
+                    <div class="col d-flex justify-content-end">
+                        <!-- Grid / List toggle -->
+                        <button class="btn" id="grid-button"><i class="fa fa-th"></i></button>
+                        <button class="btn" id="list-button"><i class="fa fa-list-ul"></i></button>
+
+                        <!-- Filter by year function -->
+                        <div class="dropdown px-4">
+                            <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                Search by year
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                <button class="dropdown-item search-button" data-li="webinar" type="button">All</button>
+                                <button class="dropdown-item search-button" data-li="2021" type="button">2021</button>
+                                <button class="dropdown-item search-button" data-li="2020" type="button">2020</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+
                 <div class="row mx-auto">
 
                     <div class="col-lg-4 d-flex justify-content-center">
@@ -256,6 +280,12 @@
                     </div>
 
                 </div>
+
+                <div class="center">
+                    <a class="col-1" href="podcast.html">1</a>
+                    <a class="col-1" href="podcast2.html">2</a>
+                </div>
+                
             </div>
         </section>
 
