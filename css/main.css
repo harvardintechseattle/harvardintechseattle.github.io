@@ -44,7 +44,7 @@
 
 /* Carousel */
 .carousel .carousel-item {
-    height: 500px;
+    height: 500px; /* Try 40em */
 }
 
 .carousel-item img {
@@ -52,7 +52,7 @@
     object-fit:cover;
     top: 0;
     left: 0;
-    min-height: 500px;
+    min-height: 500px; /* Try 40em */
 }
 
 /* To set the anchor links color */

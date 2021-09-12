@@ -1,7 +1,7 @@
 $(function () {
 
     // == Scroll button ==
-    $('.intro-button .btn').click(function () {
+    $('.intro .button').click(function () {
         document.querySelector('.latest-Webinars').scrollIntoView({
             behavior: 'smooth'
         });

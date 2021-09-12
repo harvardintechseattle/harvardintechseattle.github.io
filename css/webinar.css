@@ -2,9 +2,8 @@ html {
     scroll-behavior: smooth;
 }
 
-/* -------------- Most Recent/Upcoming Webinar */
+/* -------------- Webinar Overview */
 .page-section {
-    margin-top: 5rem;
     margin-bottom: 5rem;
 }
 
@@ -29,13 +28,6 @@ html {
         width: 60%;
         margin-top: 3rem;
         position: absolute;
-    }
-
-    .intro .intro-text .intro-button {
-        width: 100%;
-        left: 0;
-        position: absolute;
-        bottom: -1rem;
     }
 }
 
@@ -101,7 +93,7 @@ html {
 
 .read-more-btn {
     line-height: 1.5;
-    color: #e6a756;
+    color: #C2B280;
     cursor: pointer;
     padding-left: 0;
     -webkit-user-select: none;
@@ -113,7 +105,8 @@ html {
 }
 
 .read-more-btn:hover {
-    color: black;
+    color: #000000;
+    text-decoration: none;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -122,36 +115,27 @@ html {
     }
 }
 
-.btn:hover {
+a:hover {
     color: #000000;
+    text-decoration: none;
 }
 
-.btn:disabled,
-.btn.disabled,
-fieldset:disabled .btn {
-    pointer-events: none;
-    opacity: 0.65;
+/* More button */
+#see-more-button {
+    color: #C2B280;
+    font-size: larger;
 }
 
-.btn-primary {
-    color: #000;
-    background-color: #e6a756;
-    border-color: #e6a756;
+#see-more-button:hover {
+    color: #000000;
+    text-decoration: none;
 }
 
-.btn-primary:hover {
-    color: #000;
-    background-color: #eab46f;
-    border-color: #e9b067;
+/* Down (chevron) arrow */
+#see-more-button i {
+    color: orangered;
+    padding-left: 10px;
 }
-
-.btn-primary:disabled,
-.btn-primary.disabled {
-    color: #000;
-    background-color: #e6a756;
-    border-color: #e6a756;
-}
-
 
 /* -------------- Grid */
 .wrapper-grid {
@@ -185,6 +169,12 @@ fieldset:disabled .btn {
 }
 
 
+/* -------------- Upcoming webinars */
+.upcoming-Webinars li a {
+    color: #C2B280;
+}
+
+
 /* -------------- Card */
 .card {
     width: 20rem;
@@ -206,7 +196,7 @@ fieldset:disabled .btn {
 }
 
 .card-link {
-    color: #e6a756;
+    color: #C2B280;
 }
 
 

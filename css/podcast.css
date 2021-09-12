@@ -155,6 +155,8 @@ fieldset:disabled .btn {
 .card-link {
     color: #e6a756;
     font-size: 15px;
+    text-decoration: none;
+    border-bottom: #e6a756 0.125em solid;
 }
 
 .latest-Webinars {
