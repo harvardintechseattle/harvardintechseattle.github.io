@@ -23,6 +23,7 @@
 
 .joinus-button .joinus-text {
     padding: 0.5em;
+    color: rgb(180,151,123);
 }
 
 /* To vertically-center the items on the nav bar */
@@ -76,8 +77,8 @@
 .button {
   background-color: transparent;
   border: 2px solid black;
-  border-color: #C2B280;
-  color: 	#C2B280;
+  border-color: #AF8661;
+  color: 	#AF8661;
   padding: 8px 20px 8px 20px;
   text-align: center;
   display: inline-block;
@@ -103,7 +104,11 @@
 
 /* Font color for Section title and description paragraph */
 .pad-text h5 , .pad-text p {
- color: #696969;
+ color: #49423D;
+}
+
+.pad-text h2 {
+  color: #051B2A;
 }
 
 /* Podcast Section */

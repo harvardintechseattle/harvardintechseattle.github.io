@@ -46,14 +46,9 @@ html {
     background-color: #f1f1f1;
 }
 
-.section-heading {
-    text-transform: uppercase;
-}
-
 .section-heading .section-heading-upper {
     display: block;
     font-size: 1rem;
-    font-weight: 800;
     text-align: left;
 }
 
@@ -137,14 +132,16 @@ a:hover {
     padding-left: 10px;
 }
 
-/* -------------- Grid */
+/* -------------- Grid / List */
 .wrapper-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, 22rem);
     justify-content: center;
+    margin-top: 1rem;
 }
 
 .wrapper-list {
+    margin-top: 1rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
@@ -162,6 +159,15 @@ a:hover {
     }
 }
 
+.list {
+    margin-bottom: 20px;
+}
+
+.list a {
+    text-decoration: underline #C2B280 2px;
+    text-underline-offset: 5px;
+}
+
 .grid-item {
     overflow: hidden;
     position: relative;
@@ -170,7 +176,21 @@ a:hover {
 
 
 /* -------------- Upcoming webinars */
-.upcoming-Webinars li a {
+.upcoming-Webinars .wrapper-grid {
+    grid-template-columns: 1fr;
+}
+
+.upcoming-Webinars .card {
+    width: 80%;
+}
+
+@media (max-width: 992px) {
+    .upcoming-Webinars .card {
+        width: fit-content;
+    }
+}
+
+.upcoming-Webinars a {
     color: #C2B280;
 }
 

@@ -1,11 +1,11 @@
 $(function () {
 
     // == Scroll button ==
-    $('.intro .button').click(function () {
-        document.querySelector('.latest-Webinars').scrollIntoView({
-            behavior: 'smooth'
-        });
-    });
+    // $('.intro .button').click(function () {
+    //     document.querySelector('.latest-Webinars').scrollIntoView({
+    //         behavior: 'smooth'
+    //     });
+    // });
 
 
     // == Search / Filters ==
@@ -76,7 +76,7 @@ $(function () {
 
     // Remove iframe attributes when the modal has finished being hidden from the user
     $("#digitalAsset").on("hidden.bs.modal", function () {
-        $("#videoModal iframe").removeAttr("src allow");
+        $("#digitalAsset iframe").removeAttr("src allow");
     });
 
     // Future of travel
@@ -91,7 +91,7 @@ $(function () {
     });
 
     $("#futureOfTravel").on("hidden.bs.modal", function () {
-        $("#videoModal iframe").removeAttr("src allow");
+        $("#futureOfTravel iframe").removeAttr("src allow");
     });
 
     // Tech innovation: US defense
@@ -106,7 +106,7 @@ $(function () {
     });
 
     $("#techDefense").on("hidden.bs.modal", function () {
-        $("#videoModal iframe").removeAttr("src allow");
+        $("#techDefense iframe").removeAttr("src allow");
     });
 
     // Tech innovation: politics
@@ -121,7 +121,7 @@ $(function () {
     });
 
     $("#techPolitics").on("hidden.bs.modal", function () {
-        $("#videoModal iframe").removeAttr("src allow");
+        $("#techPolitics iframe").removeAttr("src allow");
     });
 
     // Smart city
@@ -136,7 +136,7 @@ $(function () {
     });
 
     $("#smartCity").on("hidden.bs.modal", function () {
-        $("#videoModal iframe").removeAttr("src allow");
+        $("#smartCity iframe").removeAttr("src allow");
     });
 
     // Racism
@@ -151,7 +151,7 @@ $(function () {
     });
 
     $("#racism").on("hidden.bs.modal", function () {
-        $("#videoModal iframe").removeAttr("src allow");
+        $("#racism iframe").removeAttr("src allow");
     });
 
     // Covid-19 vaccine
@@ -166,7 +166,7 @@ $(function () {
     });
 
     $("#covidVaccine").on("hidden.bs.modal", function () {
-        $("#videoModal iframe").removeAttr("src allow");
+        $("#covidVaccine iframe").removeAttr("src allow");
     });
 
     // Covid-19 mental health
@@ -181,7 +181,7 @@ $(function () {
     });
 
     $("#covidMentalHealth").on("hidden.bs.modal", function () {
-        $("#videoModal iframe").removeAttr("src allow");
+        $("#covidMentalHealth iframe").removeAttr("src allow");
     });
 
     // Covid-19 telemedicine
@@ -196,7 +196,7 @@ $(function () {
     });
 
     $("#covidTelemedicine").on("hidden.bs.modal", function () {
-        $("#videoModal iframe").removeAttr("src allow");
+        $("#covidTelemedicine iframe").removeAttr("src allow");
     });
 
     // Covid-19 reopening economy
@@ -211,7 +211,7 @@ $(function () {
     });
 
     $("#covidReopening").on("hidden.bs.modal", function () {
-        $("#videoModal iframe").removeAttr("src allow");
+        $("#covidReopening iframe").removeAttr("src allow");
     });
 
     // Edutech solutions
@@ -226,7 +226,7 @@ $(function () {
     });
 
     $("#edutech").on("hidden.bs.modal", function () {
-        $("#videoModal iframe").removeAttr("src allow");
+        $("#edutech iframe").removeAttr("src allow");
     });
 
 });

@@ -23,8 +23,12 @@
 }
 
 .boxed p {
-  color: #6f6957;
+  color: #49423D;
   margin-bottom: 0.5em !important;;
+}
+
+.boxed h4 {
+  color: #051B2A,
 }
 
 /* Float four columns side by side */
@@ -53,7 +57,7 @@
 
 .card p {
   font-size: 0.8em;
-  color: #C2B280;
+  color: #AF8661;
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -83,7 +87,7 @@
 
 /* Styling the LinkedIn link */
 .link {
-  color: #C2B280;
+  color: #AF8661;
   text-decoration: underline;
 }
 

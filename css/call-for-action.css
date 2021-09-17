@@ -16,8 +16,12 @@
 }
 
 .boxed p {
-    color: #6f6957;
+    color: #49423D;
     margin-bottom: 0.5em !important;;
+}
+
+.boxed h4 {
+    color: #051B2A,
 }
 
 /* Responsive Header Textbox */
