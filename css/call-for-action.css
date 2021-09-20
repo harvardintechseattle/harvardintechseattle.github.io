@@ -8,9 +8,9 @@
 .boxed {
     position: relative;
     background-color: #F5F5F5;
-    width: 60%;
-    height: 20em;
-    padding: 5em 5em;
+    width: 65%;
+    height: 25em;
+    padding: 5em 4em;
     color: #404040;
     margin: 5em 0 5em;
 }
@@ -22,6 +22,14 @@
 
 .boxed h4 {
     color: #051B2A,
+}
+
+.sizing {
+    width: 50%; height: 50%; float: right;
+}
+
+.img-position {
+    position: absolute; z-index: -1;
 }
 
 /* Responsive Header Textbox */

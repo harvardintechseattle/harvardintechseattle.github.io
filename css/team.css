@@ -15,9 +15,9 @@
 .boxed {
   position: relative;
   background-color: #F5F5F5;
-  width: 60%;
-  height: 20em;
-  padding: 5em 5em;
+  width: 65%;
+  height: 25em;
+  padding: 5em 6em 4em 4em;
   color: #404040;
   margin: 5em 0 5em;
 }
@@ -29,6 +29,22 @@
 
 .boxed h4 {
   color: #051B2A,
+}
+
+.img-position {
+  position: absolute;
+  z-index: 2;
+}
+
+.sizing {
+  width: 60%;
+  height: 60%;
+  float: right;
+  padding: 2em;
+  position: relative;
+  left: 2em;
+  top: 2em;
+  z-index: 2;
 }
 
 /* Float four columns side by side */
@@ -69,6 +85,14 @@
 .card-text {
   padding: 0.2em 0.7em;
   height: 7em;
+}
+
+.card-text p {
+  margin-bottom: -0.1em;
+}
+
+.role {
+  color: #000000 !important;
 }
 
 .card-image {
@@ -164,7 +188,8 @@
 /* Responsive Header Textbox */
 @media screen and (max-width: 768px) {
   .boxed {
-      padding: 3.5em 3em;
+    height: 25em;
+    padding: 4em 5em 4em 3em;
   }
   .boxed h4 {
       font-size: 1em;
@@ -172,11 +197,18 @@
   .boxed p {
       font-size: 0.85em;
   }
+  .sizing {
+    left: 3.5em;
+    top: 0em;
+    width: 70%;
+    height: 70%;
+  }
 }
 
 @media screen and (max-width: 528px) {
   .boxed {
-      padding: 3em 2.5em;
+    height: 20em;
+    padding: 3em 2em 3em 2em;
   }
   .boxed h4 {
       font-size: 0.85em;
@@ -184,16 +216,29 @@
   .boxed p {
       font-size: 0.65em;
   }
+  .sizing {
+    left: 2.5em;
+    top: 0em;
+    width: 70%;
+    height: 70%;
+  }
 } 
 
 @media screen and (max-width: 375px) {
   .boxed {
-      padding: 2.75em 2.25em;
+    height: 17em;
+    padding: 2em 2em;
   }
   .boxed h4 {
       font-size: 0.8em;
   }
   .boxed p {
       font-size: 0.6em;
+  }
+  .sizing {
+    left: 2em;
+    top: 0em;
+    width: 70%;
+    height: 70%;
   }
 } 

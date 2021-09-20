@@ -1,5 +1,5 @@
-.page-section {
-    margin-top: 5rem;
+/* -------------- Header (most recent podcast) */
+.header {
     margin-bottom: 5rem;
 }
 
@@ -9,20 +9,9 @@
     content: "";
 }
 
-.container {
-    width: 100%;
-    padding-right: var(--bs-gutter-x, 0.75rem);
-    padding-left: var(--bs-gutter-x, 0.75rem);
-    margin-right: auto;
-    margin-left: auto;
-}
-
-
 .intro {
     position: relative;
 }
-
-
 
 @media (min-width: 992px) {
     .intro .intro-img {
@@ -35,13 +24,6 @@
         width: 60%;
         margin-top: 3rem;
         position: absolute;
-    }
-
-    .intro .intro-text .intro-button {
-        width: 100%;
-        left: 0;
-        position: absolute;
-        bottom: -1rem;
     }
 }
 
@@ -60,14 +42,9 @@
     background-color: #f1f1f1;
 }
 
-.section-heading {
-    text-transform: uppercase;
-}
-
 .section-heading .section-heading-upper {
     display: block;
     font-size: 1rem;
-    font-weight: 800;
     text-align: left;
 }
 
@@ -78,15 +55,17 @@
     text-align: left;
 }
 
-.intro-text > p {
+.intro-text>p {
     text-align: left;
 }
 
+
+/* -------------- Button */
 .btn {
     display: inline-block;
     font-weight: 400;
     line-height: 1.5;
-    color: #212529;
+    color: #5f5f5f;
     text-align: center;
     text-decoration: none;
     vertical-align: middle;
@@ -103,92 +82,140 @@
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
+.read-more-btn {
+    line-height: 1.5;
+    color: #C2B280;
+    cursor: pointer;
+    padding-left: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 0px solid transparent;
+}
+
+.read-more-btn:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
 @media (prefers-reduced-motion: reduce) {
     .btn {
         transition: none;
     }
 }
 
-.btn:hover {
-    color: #212529;
+a:hover {
+    color: #000000;
+    text-decoration: none;
 }
 
-.btn:disabled,
-.btn.disabled,
-fieldset:disabled .btn {
-    pointer-events: none;
-    opacity: 0.65;
+/* Podcast buttons */
+.podcast-buttons i {
+    color: #AF8661;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
-.btn-primary {
-    color: #000;
-    background-color: #e6a756;
-    border-color: #e6a756;
+.podcast-buttons i:hover {
+    color: #49423D;
 }
 
-.btn-primary:hover {
-    color: #000;
-    background-color: #eab46f;
-    border-color: #e9b067;
+/* More button */
+#see-more-button {
+    color: #C2B280;
+    font-size: larger;
 }
 
-.btn-primary:disabled,
-.btn-primary.disabled {
-    color: #000;
-    background-color: #e6a756;
-    border-color: #e6a756;
+#see-more-button:hover {
+    color: #000000;
+    text-decoration: none;
 }
 
+/* Down (chevron) arrow */
+#see-more-button i {
+    color: orangered;
+    padding-left: 10px;
+}
+
+/* -------------- Grid / List */
+.wrapper-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 22rem);
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.wrapper-list {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+
+@media (max-width: 992px) {
+    .wrapper-list,
+    .wrapper-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .wrapper-list a {
+        font-size: medium;
+    }
+}
+
+.podcast-list li {
+    margin-bottom: 20px;
+}
+
+.podcast-list .podcast-buttons {
+    margin-left: 1rem;
+}
+
+.podcast-list .podcast-buttons i {
+    text-decoration: none;
+    margin-left: 0;
+    font-size: 1.5rem;
+}
+
+.grid-item {
+    overflow: hidden;
+    position: relative;
+    margin: 0.5rem;
+}
+
+/* -------------- Card */
 .card {
     width: 20rem;
     margin-bottom: 2rem;
+}
+
+@media (max-width: 992px) {
+    .card {
+        width: fit-content;
+    }
 }
 
 .card img {
     padding: 1rem;
 }
 
-.upcoming-Webinars .card-body {
-    background-color: #f1f1f1;
-}
-
 .card-link {
-    color: #e6a756;
-    font-size: 15px;
-    text-decoration: none;
-    border-bottom: #e6a756 0.125em solid;
+    color: #C2B280;
 }
 
-.latest-Webinars {
-    height: 50rem;
+.card h6 {
+    margin-bottom: 1.5rem;
+}
+
+
+/* -------------- Latest Podcasts */
+.latest-Podcasts {
     width: 100%;
     background-color: #f1f1f1;
 }
 
 #webinar-list a {
     color: black;
-}
-
-.button {
-    background-color: transparent;
-    border: 2px solid black;
-    border-color: #C2B280;
-    color: 	#C2B280;
-    padding: 8px 20px 8px 20px;
-    text-align: center;
-    display: inline-block;
-    margin: 2px 1px;
-    font-size: 14px;
-    cursor: pointer;
-    border-radius: 30px;
-    margin-right: 27px;
-  }
-
-.center {
-    text-align: center;
-}
-
-.center a {
-    font-size: larger;
-    color: #e6a756;
 }

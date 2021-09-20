@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <div>
         <!-- Logo in the navbar -->
         <div class="logo-container" style="margin-top: 1em">
             <a href="index.html">
@@ -96,41 +96,46 @@
             </div>
         </div>
 
-        <!-- Most Recent/Upcoming Podcast -->
-        <section class="page-section clearfix">
+        <!-- Header / Most Recent Podcast -->
+        <section class="header clearfix">
             <div class="container">
                 <div class="intro">
-                    <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="assets/HiTS Podcast Spencer Rascoff.png"
-                        alt="..." />
+                    <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" 
+                        src="assets/podcast/HiTS Podcast Spencer Rascoff.png" alt="..." />
                     <div class="intro-text left-0  bg-faded p-5 rounded">
                         <h2 class="section-heading">
-                            <span class="section-heading-lower">Spencer Rascoff</span>
+                            <span class="section-heading-lower">
+                                <h4>Spencer Rascoff (HU '97)</h4>
+                            </span>
                         </h2>
-                        <h4 class="mb-4">Co-founder & Chair, Pacaso, Supernova SPAC, dot.LA</h4>
+                        <h6 class="mb-4">Co-founder & Chair, Pacaso, Supernova SPAC, dot.LA</h6>
                         <p class="mb-3">Spencer Rascoff is the CEO of Pacaso. He was previously the CEO of Zillow for
                             over 13 years as well as co-founding and/or being board members of many other companies e.g.
                             dot.LA, Palantir, 75 & Sunny, etc.</p>
-                        <div class="row">
-                            <div><a class="button"
-                                    href="https://soundcloud.com/user-616895977/episode-6-spencer-rascoff"
-                                    class="card-link">SoundCloud</a></div>
-                            <div><a class="button"
-                                    href="https://open.spotify.com/episode/2s7xeL8UUp9OLI4cYwNfO1?si=MPmh5O59R0yWKhObj1VWsw&dl_branch=1"
-                                    class="card-link">Spotify</a></div>
-                            <div><a class="button"
-                                    href="https://podcasts.apple.com/us/podcast/harvard-in-tech-seattle-podcast-episode-6-spencer-rascoff/id1547518984?i=1000524831488"
-                                    class="card-link">Apple Podcast</a></div>
+                        <div class="row podcast-buttons">
+                           <a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/user-616895977/episode-6-spencer-rascoff">
+                                    <i class="fa fa-soundcloud fa-2x"></i>
+                                </a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/episode/2s7xeL8UUp9OLI4cYwNfO1?si=MPmh5O59R0yWKhObj1VWsw&dl_branch=1">
+                                    <i class="fa fa-spotify fa-2x"></i>
+                                </a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://podcasts.apple.com/us/podcast/harvard-in-tech-seattle-podcast-episode-6-spencer-rascoff/id1547518984?i=1000524831488">
+                                    <i class="fa fa-podcast fa-2x"></i>
+                                </a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Previous Podcasts -->
-        <section class="upcoming-Webinars">
+        <!-- Latest Podcasts -->
+        <section class="latest-Podcasts">
             <div class="container py-5">
-                <div class="row">
-                    <p>Latest Podcast</p>
+                <!-- Title/Buttons -->
+                <div class="row align-items-end pb-3">
+                    <div class="col">
+                        <h5>Latest Podcasts</h5>
+                    </div>
 
                     <div class="col d-flex justify-content-end">
                         <!-- Grid / List toggle -->
@@ -144,147 +149,258 @@
                                 Search by year
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                                <button class="dropdown-item search-button" data-li="webinar" type="button">All</button>
+                                <button class="dropdown-item search-button" data-li="podcast" type="button">All</button>
                                 <button class="dropdown-item search-button" data-li="2021" type="button">2021</button>
                                 <button class="dropdown-item search-button" data-li="2020" type="button">2020</button>
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <br>
-
-                <div class="row mx-auto">
-
-                    <div class="col-lg-4 d-flex justify-content-center">
-                        <div class="card">
-                            <img src="assets/HiTS Podcast Spencer Rascoff.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h4 class="card-title">Spencer Rascoff</h4>
-                                <h6>Co-founder & Chair, Pacaso, Supernova SPAC, dot.LA</h6>
-                                <br>
-                                <p class="card-text">Spencer Rascoff is the CEO of Pacaso. He was previously the CEO of
-                                    Zillow for over 13 years as well as co-founding and/or being board members of many
-                                    other companies e.g. dot.LA, Palantir, 75 & Sunny, etc.</p>
-                                <br>
-                                <a href="https://soundcloud.com/user-616895977/episode-6-spencer-rascoff"
-                                    class="card-link">SoundCloud</a>
-                                <a href="https://open.spotify.com/episode/2s7xeL8UUp9OLI4cYwNfO1?si=MPmh5O59R0yWKhObj1VWsw&dl_branch=1"
-                                    class="card-link">Spotify</a>
-                                <a href="https://podcasts.apple.com/us/podcast/harvard-in-tech-seattle-podcast-episode-6-spencer-rascoff/id1547518984?i=1000524831488"
-                                    class="card-link">Apple Podcast</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 d-flex justify-content-center">
-                        <div class="card">
-                            <img src="assets/HiTS Podcast Steven Maheshwary.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h4 class="card-title">Steven Maheshwary</h4>
-                                <h6>Director of Economic Development - IT, Washington State</h6>
-                                <br>
-                                <p class="card-text">Steven Maheshwary is a tech industry veteran who is passionate
-                                    about the nexus of the tech and positive social impact through fostering
-                                    entrepreunership, building partnerships and empowering communities.</p>
-                                <a href="https://soundcloud.com/user-616895977/harvard-in-tech-seattle-podcast-episode-1-steven-maheshwary"
-                                    class="card-link">SoundCloud</a>
-                                <a href="https://open.spotify.com/episode/4XMFIFruYPtJJvuSWhPT03?si=lwgF90WxST6tXhtmp1YnZA&dl_branch=1"
-                                    class="card-link">Spotify</a>
-                                <a href="https://podcasts.apple.com/us/podcast/harvard-in-tech-seattle-podcast-episode-1-steven-maheshwary/id1547518984?i=1000504437919"
-                                    class="card-link">Apple Podcast</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 d-flex justify-content-center">
-                        <div class="card">
-                            <img src="assets/HiTS Podcast Aran Khanna.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h4 class="card-title">Aran Khanna</h4>
-                                <h6>CEO and Co-founder, Reserved.ai</h6>
-                                <br>
-                                <p class="card-text">Aran Khanna is co-founder and CEO of Reserved.ai. He graduated from
-                                    Harvard College in 2016. He has previously worked at several startups, one of which
-                                    was acquired by Amazon Web Services (AWS). One of the principles he follows and
-                                    explains in this episode is extreme ownership.</p>
-                                <a href="https://soundcloud.com/user-616895977/episode-5-aran-khanna"
-                                    class="card-link">SoundCloud</a>
-                                <a href="https://open.spotify.com/episode/7DM8S55UZRGq93QNKMAQoP?si=FIVxEUHVSS6LAY0sefP-AQ&dl_branch=1"
-                                    class="card-link">Spotify</a>
-                                <a href="https://podcasts.apple.com/us/podcast/harvard-in-tech-seattle-podcast-episode-5-aran-khanna/id1547518984?i=1000520002062"
-                                    class="card-link">Apple Podcast</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 d-flex justify-content-center">
-                        <div class="card">
-                            <img src="assets/HiTS Podcast My Le Goel.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h4 class="card-title">My Le Goel</h4>
-                                <h6>CEO and Founder, Flight Live Inc.</h6>
-                                <br>
-                                <p class="card-text">My Le is the CEO of FlightLive, a mobile wellness technology
-                                    platform for live, interactive, virtual personal fitness training that matches
-                                    clients with a curated list of certified personal trainers and yoga instructors.</p>
-                                <a href="https://soundcloud.com/user-616895977/my-le-goel"
-                                    class="card-link">SoundCloud</a>
-                                <a href="https://open.spotify.com/episode/2JXKfaj3Fx7WxS0M1EAGjt?si=_xGFmJE2QSuu2O_ju0f5yQ&dl_branch=1"
-                                    class="card-link">Spotify</a>
-                                <a href="https://podcasts.apple.com/us/podcast/harvard-in-tech-seattle-podcast-episode-2-my-le-goel/id1547518984?i=1000504437918"
-                                    class="card-link">Apple Podcast</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 d-flex justify-content-center">
-                        <div class="card">
-                            <img src="assets/HiTS Podcast Bridget Frey.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h4 class="card-title">Bridget Frey</h4>
-                                <h6>Chief Technology Officer, Redfin</h6>
-                                <br>
-                                <p class="card-text">As Redfin's Chief Technology Officer, Bridget leads the software
-                                    engineering team, which she has grown to more than 150 engineers in Seattle and San
-                                    Francisco.</p>
-                                <br>
-                                <a href="https://soundcloud.com/user-616895977/episode-3-bridget-frey"
-                                    class="card-link">SoundCloud</a>
-                                <a href="https://open.spotify.com/episode/1kQUYTJyXEdbWRqc5YFZVw?si=uXDqswYPQvK1bUfC3kvNtw&dl_branch=1"
-                                    class="card-link">Spotify</a>
-                                <a href="https://podcasts.apple.com/us/podcast/harvard-in-tech-seattle-podcast-episode-3-bridget-frey/id1547518984?i=1000507775956"
-                                    class="card-link">Apple Podcast</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 d-flex justify-content-center">
-                        <div class="card">
-                            <img src="assets/HiTS Podcast Laura Butler.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h4 class="card-title">Laura Butler</h4>
-                                <h6>CEO and Co-founder, UpLift Group Inc.</h6>
-                                <p class="card-text mb-4">Laura Butler is Co-founder and CEO/CTO of UpLift Group. She is
-                                    also an amateur angel and LP who takes a fairy godmother approach.</p>
-                                <br><br>
-                                <a href="https://soundcloud.com/user-616895977/harvard-in-tech-seattle-podcast-episode-4-laura-butler"
-                                    class="card-link">SoundCloud</a>
-                                <a href="https://open.spotify.com/episode/16L6HOcGMMgqDGNcE6ZaX3?si=s4eCouVfQq-1HeN9X4XxJg&dl_branch=1"
-                                    class="card-link">Spotify</a>
-                                <a href="https://podcasts.apple.com/us/podcast/harvard-in-tech-seattle-podcast-episode-4-laura-butler/id1547518984?i=1000510594113"
-                                    class="card-link">Apple Podcast</a>
-                            </div>
-                        </div>
-                    </div>
 
                 </div>
 
-                <div class="center">
-                    <a class="col-1" href="podcast.html">1</a>
-                    <a class="col-1" href="podcast2.html">2</a>
-                </div>
-                
+                <!-- Grid -->
+                <section class="podcast-grid">
+                    <div class="wrapper-grid">
+                        <!-- Episode 6 -->
+                        <div class="2021 grid item">
+                            <div class="card">
+                                <img src="assets/podcast/HiTS Podcast Spencer Rascoff.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Spencer Rascoff (HU '97)</h5>
+                                    <h6>Co-founder & Chair<br>Pacaso, Supernova SPAC, dot.LA</h6>
+                                    
+                                    <p class="card-text mb-4">Spencer Rascoff is the CEO of Pacaso. He was previously the CEO of
+                                        Zillow for over 13 years as well as co-founding and/or being board members of many
+                                        other companies e.g. dot.LA, Palantir, 75 & Sunny, etc.</p>
+                                    <br><br>
+                                    
+                                    <div class="row podcast-buttons">
+                                        <a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/user-616895977/episode-6-spencer-rascoff">
+                                            <i class="fa fa-soundcloud fa-2x"></i></a>
+                                        <a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/episode/2s7xeL8UUp9OLI4cYwNfO1?si=MPmh5O59R0yWKhObj1VWsw&dl_branch=1">
+                                            <i class="fa fa-spotify fa-2x"></i></a>
+                                        <a target="_blank" rel="noopener noreferrer" href="https://podcasts.apple.com/us/podcast/harvard-in-tech-seattle-podcast-episode-6-spencer-rascoff/id1547518984?i=1000524831488">
+                                            <i class="fa fa-podcast fa-2x"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Episode 5 -->
+                        <div class="2021 grid item">
+                            <div class="card">
+                                <img src="assets/podcast/HiTS Podcast Aran Khanna.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Aran Khanna (HU '16)</h5>
+                                    <h6>CEO and Co-founder<br>Reserved.ai</h6>
+
+                                    <p class="card-text mb-4">Aran Khanna is co-founder and CEO of Reserved.ai. He graduated from
+                                        Harvard College in 2016. He has previously worked at several startups, one of which
+                                        was acquired by Amazon Web Services (AWS). One of the principles he follows and
+                                        explains in this episode is extreme ownership.</p>
+
+                                    <div class="row podcast-buttons">
+                                        <a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/user-616895977/episode-5-aran-khanna">
+                                            <i class="fa fa-soundcloud fa-2x"></i></a>
+                                        <a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/episode/7DM8S55UZRGq93QNKMAQoP?si=FIVxEUHVSS6LAY0sefP-AQ&dl_branch=1">
+                                            <i class="fa fa-spotify fa-2x"></i></a>
+                                        <a target="_blank" rel="noopener noreferrer" href="https://podcasts.apple.com/us/podcast/harvard-in-tech-seattle-podcast-episode-5-aran-khanna/id1547518984?i=1000520002062">
+                                            <i class="fa fa-podcast fa-2x"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Episode 4 -->
+                        <div class="2021 grid item">
+                            <div class="card">
+                                <img src="assets/podcast/HiTS Podcast Laura Butler.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Laura Butler</h5>
+                                    <h6>CEO and Co-founder<br>UpLift Group Inc.</h6>
+
+                                    <p class="card-text mb-4">Laura Butler is Co-founder and CEO/CTO of UpLift Group. She is
+                                        also an amateur angel and LP who takes a fairy godmother approach.</p>
+                                    <br><br><br><br>
+
+                                    <div class="row podcast-buttons">
+                                        <a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/user-616895977/harvard-in-tech-seattle-podcast-episode-4-laura-butler">
+                                            <i class="fa fa-soundcloud fa-2x"></i></a>
+                                        <a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/episode/16L6HOcGMMgqDGNcE6ZaX3?si=s4eCouVfQq-1HeN9X4XxJg&dl_branch=1">
+                                            <i class="fa fa-spotify fa-2x"></i></a>
+                                        <a target="_blank" rel="noopener noreferrer" href="https://podcasts.apple.com/us/podcast/harvard-in-tech-seattle-podcast-episode-4-laura-butler/id1547518984?i=1000510594113">
+                                            <i class="fa fa-podcast fa-2x"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Episode 3 -->
+                        <div class="2021 grid item">
+                            <div class="card">
+                                <img src="assets/podcast/HiTS Podcast Bridget Frey.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Bridget Frey (HU '99)</h5>
+                                    <h6>Chief Technology Officer<br>Redfin</h6>
+
+                                    <p class="card-text mb-4">As Redfin's Chief Technology Officer, Bridget leads the software
+                                        engineering team, which she has grow podcast-buttonsn to more than 150 engineers in Seattle and San
+                                        Francisco.</p>
+                                    <br><br>
+
+                                    <div class="row podcast-buttons">
+                                        <a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/user-616895977/episode-3-bridget-frey">
+                                            <i class="fa fa-soundcloud fa-2x"></i></a>
+                                        <a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/episode/1kQUYTJyXEdbWRqc5YFZVw?si=uXDqswYPQvK1bUfC3kvNtw&dl_branch=1">
+                                            <i class="fa fa-spotify fa-2x"></i></a>
+                                        <a target="_blank" rel="noopener noreferrer" href="https://podcasts.apple.com/us/podcast/harvard-in-tech-seattle-podcast-episode-3-bridget-frey/id1547518984?i=1000507775956">
+                                            <i class="fa fa-podcast fa-2x"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Episode 2 -->
+                        <div class="2021 grid item">
+                            <div class="card">
+                                <img src="assets/podcast/HiTS Podcast My Le Goel.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">My Le Goel (HU '04)</h5>
+                                    <h6>CEO and Founder<br>Flight Live Inc.</h6>
+
+                                    <p class="card-text mb-4">My Le is the CEO of FlightLive, a mobile wellness technology
+                                        platform for live, interactive, virtual personal fitness training that matches
+                                        clients with a curated list of certified personal trainers and yoga instructors.</p>
+                                    <br><br>
+
+                                    <div class="row podcast-buttons">
+                                        <a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/user-616895977/my-le-goel">
+                                            <i class="fa fa-soundcloud fa-2x"></i></a>
+                                        <a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/episode/2JXKfaj3Fx7WxS0M1EAGjt?si=_xGFmJE2QSuu2O_ju0f5yQ&dl_branch=1">
+                                            <i class="fa fa-spotify fa-2x"></i></a>
+                                        <a target="_blank" rel="noopener noreferrer" href="https://podcasts.apple.com/us/podcast/harvard-in-tech-seattle-podcast-episode-2-my-le-goel/id1547518984?i=1000504437918">
+                                            <i class="fa fa-podcast fa-2x"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Episode 1 -->
+                        <div class="2020 grid item">
+                            <div class="card">
+                                <img src="assets/podcast/HiTS Podcast Steven Maheshwary.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Steven Maheshwary (HU '12)</h5>
+                                    <h6>Director of Economic Development - IT, Washington State</h6>
+                                    
+                                    <p class="card-text mb-4">Steven Maheshwary is a tech industry veteran who is passionate
+                                        about the nexus of the tech and positive social impact through fostering
+                                        entrepreunership, building partnerships and empowering communities.</p>
+                                    <br>
+
+                                    <div class="row podcast-buttons">
+                                        <a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/user-616895977/harvard-in-tech-seattle-podcast-episode-1-steven-maheshwary">
+                                            <i class="fa fa-soundcloud fa-2x"></i></a>
+                                        <a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/episode/4XMFIFruYPtJJvuSWhPT03?si=lwgF90WxST6tXhtmp1YnZA&dl_branch=1">
+                                            <i class="fa fa-spotify fa-2x"></i></a>
+                                        <a target="_blank" rel="noopener noreferrer" href="https://podcasts.apple.com/us/podcast/harvard-in-tech-seattle-podcast-episode-1-steven-maheshwary/id1547518984?i=1000504437919">
+                                            <i class="fa fa-podcast fa-2x"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- List -->
+                <section class="podcast-list">
+                    <div>
+                        <!-- Episode 6 -->
+                        <li class="2021">
+                            Harvard in Tech Seattle Podcast Episode 6 - Spencer Rascoff
+
+                            <span class="podcast-buttons">
+                                <a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/user-616895977/episode-6-spencer-rascoff">
+                                    <i class="fa fa-soundcloud"></i></a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/episode/2s7xeL8UUp9OLI4cYwNfO1?si=MPmh5O59R0yWKhObj1VWsw&dl_branch=1">
+                                    <i class="fa fa-spotify"></i></a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://podcasts.apple.com/us/podcast/harvard-in-tech-seattle-podcast-episode-6-spencer-rascoff/id1547518984?i=1000524831488">
+                                    <i class="fa fa-podcast"></i></a>
+                            </span>
+                        </li>
+
+                        <!-- Episode 5 -->
+                        <li class="2021">
+                            Harvard in Tech Seattle Podcast Episode 5 - Aran Khanna
+
+                            <span class="podcast-buttons">
+                                <a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/user-616895977/episode-5-aran-khanna">
+                                    <i class="fa fa-soundcloud"></i></a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/episode/7DM8S55UZRGq93QNKMAQoP?si=FIVxEUHVSS6LAY0sefP-AQ&dl_branch=1">
+                                    <i class="fa fa-spotify"></i></a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://podcasts.apple.com/us/podcast/harvard-in-tech-seattle-podcast-episode-5-aran-khanna/id1547518984?i=1000520002062">
+                                    <i class="fa fa-podcast"></i></a>
+                            </span>
+                        </li>
+
+                        <!-- Episode 4 -->
+                        <li class="2021">
+                            Harvard in Tech Seattle Podcast Episode 4 - Laura Butler
+
+                            <span class="podcast-buttons">
+                                <a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/user-616895977/harvard-in-tech-seattle-podcast-episode-4-laura-butler">
+                                    <i class="fa fa-soundcloud"></i></a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/episode/16L6HOcGMMgqDGNcE6ZaX3?si=s4eCouVfQq-1HeN9X4XxJg&dl_branch=1">
+                                    <i class="fa fa-spotify"></i></a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://podcasts.apple.com/us/podcast/harvard-in-tech-seattle-podcast-episode-4-laura-butler/id1547518984?i=1000510594113">
+                                    <i class="fa fa-podcast"></i></a>
+                            </span>
+                        </li>
+
+                        <!-- Episode 3 -->
+                        <li class="2021">
+                            Harvard in Tech Seattle Podcast Episode 3 - Bridget Frey
+
+                            <span class="podcast-buttons">
+                                <a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/user-616895977/episode-3-bridget-frey">
+                                    <i class="fa fa-soundcloud"></i></a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/episode/1kQUYTJyXEdbWRqc5YFZVw?si=uXDqswYPQvK1bUfC3kvNtw&dl_branch=1">
+                                    <i class="fa fa-spotify"></i></a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://podcasts.apple.com/us/podcast/harvard-in-tech-seattle-podcast-episode-3-bridget-frey/id1547518984?i=1000507775956">
+                                    <i class="fa fa-podcast"></i></a>
+                            </span>
+                        </li>
+
+                        <!-- Episode 2 -->
+                        <li class="2021">
+                            Harvard In Tech Seattle Podcast Episode 2 - My Le Goel
+
+                            <span class="podcast-buttons">
+                                <a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/user-616895977/my-le-goel">
+                                    <i class="fa fa-soundcloud"></i></a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/episode/2JXKfaj3Fx7WxS0M1EAGjt?si=_xGFmJE2QSuu2O_ju0f5yQ&dl_branch=1">
+                                    <i class="fa fa-spotify"></i></a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://podcasts.apple.com/us/podcast/harvard-in-tech-seattle-podcast-episode-2-my-le-goel/id1547518984?i=1000504437918">
+                                    <i class="fa fa-podcast"></i></a>
+                            </span>
+                        </li>
+
+                        <!-- Episode 1 -->
+                        <li class="2020">
+                            Harvard In Tech Seattle Podcast Episode 1 - Steven Maheshwary
+
+                            <span class="podcast-buttons">
+                                <a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/user-616895977/harvard-in-tech-seattle-podcast-episode-1-steven-maheshwary">
+                                    <i class="fa fa-soundcloud"></i></a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/episode/4XMFIFruYPtJJvuSWhPT03?si=lwgF90WxST6tXhtmp1YnZA&dl_branch=1">
+                                    <i class="fa fa-spotify"></i></a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://podcasts.apple.com/us/podcast/harvard-in-tech-seattle-podcast-episode-1-steven-maheshwary/id1547518984?i=1000504437919">
+                                    <i class="fa fa-podcast"></i></a>
+                            </span>
+
+                        </li>
+                    </div>
+                </section>
             </div>
         </section>
 
@@ -325,7 +441,7 @@
                             <br><br>
                             <span class="text-muted">Volunteer Opportunities</span>
                             <br>
-                            <a href="https://lnkd.in/g43ipkP"><span class="black-link">Open Reqs</span></a>
+                            <a href="volunteer-page.html"><span class="black-link">Open Reqs</span></a>
                         </div>
                         <div class="col-md">
                             <a href="team.html"><span class="text-muted">Team</span></a>
@@ -367,20 +483,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
         </script>
-
-    <script>
-        $(function () {
-            $('#webinar-list').hide();
-            $('#grid-button').click(function () {
-                $('#webinar-grid').show();
-                $('#webinar-list').hide();
-            });
-            $('#list-button').click(function () {
-                $('#webinar-grid').hide();
-                $('#webinar-list').show();
-            });
-        });
-    </script>
+    <script src="js/podcast.js"></script>
 </body>
 
 </html>

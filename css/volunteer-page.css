@@ -15,9 +15,9 @@
 .boxed {
     position: relative;
     background-color: #F5F5F5;
-    width: 60%;
-    height: 20em;
-    padding: 5em 5em;
+    width: 65%;
+    height: 25em;
+    padding: 5em 4em 4em;
     color: #404040;
     margin: 5em 0 5em;
 }
@@ -29,6 +29,14 @@
 
 .boxed h4 {
     color: #051B2A,
+}
+
+.img-position {
+    position: absolute; z-index: 2;
+}
+
+.sizing {
+    width: 55%; height: 55%; float: right; position: relative; right: 3em; top: 1em; z-index: 2;
 }
 
 .w3-button {
@@ -60,20 +68,31 @@
     .boxed p {
       font-size: 0.9em;
     }
+    .sizing {
+        right: 2.5em;
+    }
 }
   
 @media screen and (max-width: 1024px) {
+    .boxed {
+        padding: 4em 5em 4em 4em;
+        height: 20em;
+    }
     .boxed h4 {
         font-size: 0.9em;
     }
     .boxed p {
         font-size: 0.75em;
     }
+    .sizing {
+        right: 2em;
+    }
 }
   
 @media screen and (max-width: 768px) {
     .boxed {
-        padding: 5em 3.25em;
+        padding: 4em 5em 4em 4em;
+        height: 20em;
     }
     .boxed h4 {
         font-size: 0.8em;
@@ -81,11 +100,15 @@
     .boxed p {
         font-size: 0.6em;
     }
+    .sizing {
+        right: 2em;
+    }
 }
 
 @media screen and (max-width: 528px) {
     .boxed {
-        padding: 4em 2.75em;
+        padding: 3em 3em;
+        height: 20em;
     }
     .boxed h4 {
         font-size: 0.7em;
@@ -93,16 +116,24 @@
     .boxed p {
         font-size: 0.5em;
     }
+    .sizing {
+        right: 1em;
+    }
 } 
 
 @media screen and (max-width: 375px) {
     .boxed {
-        padding: 3.25em 2em;
+        padding: 2em 2em;
+        height: 17em;
     }
     .boxed h4 {
         font-size: 0.65em;
     }
     .boxed p {
         font-size: 0.45em;
+    }
+    .sizing {
+        right: 0em;
+        left: 0.75em;
     }
 } 

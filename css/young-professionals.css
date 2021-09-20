@@ -8,9 +8,9 @@
 .boxed {
     position: relative;
     background-color: #F5F5F5;
-    width: 60%;
+    width: 65%;
     height: 30em;
-    padding: 5em 5em;
+    padding: 8em 6em 4em 4em;
     color: #404040;
     margin: 5em 0 5em;
 }
@@ -24,6 +24,20 @@
     color: #051B2A,
 }
 
+.img-position {
+    position: absolute;
+    z-index: 2;
+}
+
+.sizing {
+    width: 70%;
+    height: 70%;
+    float: right;
+    position: relative;
+    left: 5em;
+    z-index: 2;
+}
+
 /* Responsive Header Textbox */
 @media screen and (max-width: 1199px) {
     .boxed h4 {
@@ -35,6 +49,10 @@
 }
   
 @media screen and (max-width: 1024px) {
+    .boxed {
+        padding: 5em 3.5em 3.5em;
+        height: 25em;
+    }
     .boxed h4 {
         font-size: 0.9em;
     }
@@ -45,7 +63,8 @@
   
 @media screen and (max-width: 768px) {
     .boxed {
-        padding: 5em 3.25em;
+        padding: 5em 3.5em 3.5em;
+        height: 25em;
     }
     .boxed h4 {
         font-size: 0.8em;
@@ -57,7 +76,8 @@
 
 @media screen and (max-width: 528px) {
     .boxed {
-        padding: 4em 2.75em;
+        padding: 0em 2em;
+        height: 25em;
     }
     .boxed h4 {
         font-size: 0.7em;
@@ -65,16 +85,23 @@
     .boxed p {
         font-size: 0.5em;
     }
+    .sizing {
+        left: 4em;
+    }
 } 
 
 @media screen and (max-width: 375px) {
     .boxed {
-        padding: 3.25em 2em;
+        padding: 0em 2em;
+        height: 25em;
     }
     .boxed h4 {
         font-size: 0.65em;
     }
     .boxed p {
         font-size: 0.45em;
+    }
+    .sizing {
+        left: 4em;
     }
 } 
