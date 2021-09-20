@@ -25,9 +25,9 @@
     margin-right: 0.8rem;
 }
 
-span {
-    display: inline-block;
-}
+/*span {*/
+/*    display: inline-block;*/
+/*}*/
 
 span .fa-circle {
     color: rgb(104, 92, 78);

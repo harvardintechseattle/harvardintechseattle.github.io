@@ -9,6 +9,10 @@
     margin-bottom: 2em;
 }
 
+.empty-div {
+    margin-left: 15px;
+}
+
 .joinus-button {
     background-color: transparent;
     border: 2px solid black;
@@ -43,23 +47,14 @@
   clip-path: circle(25px at center);
 }
 
-/* Carousel */
-.carousel .carousel-item {
-    height: 500px;
-}
-
-.carousel-item img {
-    position: absolute;
-    object-fit:cover;
-    top: 0;
-    left: 0;
-    min-height: 500px;
-}
-
 /* To set the anchor links color */
 .black-link {
   text-decoration:black !important;
   color: black !important;
+}
+
+.color-background {
+    background-color: #f4f3f2;
 }
 
 .footer {
