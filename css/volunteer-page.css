@@ -17,9 +17,9 @@
     background-color: #F5F5F5;
     width: 65%;
     height: 25em;
-    padding: 5em 4em 4em;
+    padding: 5em 8em 4em 4em;
     color: #404040;
-    margin: 5em 0 5em;
+    margin: 0em 0em 3em;
 }
 
 .boxed p {
@@ -28,7 +28,13 @@
 }
 
 .boxed h4 {
-    color: #051B2A,
+    color: #051B2A;
+}
+
+.positions-title h4 {
+    color: #051B2A;
+    padding-left: 1.2em;
+    padding-bottom: 0.25em;
 }
 
 .img-position {
@@ -36,7 +42,12 @@
 }
 
 .sizing {
-    width: 55%; height: 55%; float: right; position: relative; right: 3em; top: 1em; z-index: 2;
+    width: 55%;
+    height: 55%;
+    float: right;
+    position: relative;
+    right: 3em;
+    z-index: 2;
 }
 
 .w3-button {

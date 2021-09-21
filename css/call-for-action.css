@@ -10,9 +10,8 @@
     background-color: #F5F5F5;
     width: 65%;
     height: 25em;
-    padding: 5em 4em;
+    padding: 2em 4em;
     color: #404040;
-    margin: 5em 0 5em;
 }
 
 .boxed p {
@@ -21,7 +20,7 @@
 }
 
 .boxed h4 {
-    color: #051B2A,
+    color: #051B2A;
 }
 
 .sizing {

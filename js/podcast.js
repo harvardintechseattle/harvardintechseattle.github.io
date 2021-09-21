@@ -1,5 +1,8 @@
 $(function () {
 
+    // Enable tooltip
+    $('[data-toggle="tooltip"]').tooltip()
+
     // == Search / Filters ==
 
     $('.podcast-list').hide();

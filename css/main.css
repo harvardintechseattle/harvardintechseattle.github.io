@@ -58,8 +58,10 @@
 }
 
 .footer {
-   text-align: center;
-   margin-top: 5em;
+    text-align: center;
+    margin-top: 5em;
+    padding-top: 3em;
+    padding-bottom: 2em;
 }
 
 /* To change the color of the social media icons */
@@ -84,6 +86,9 @@
 }
 
 /* Who We Are Section */
+#whoweare .container {
+    padding-bottom: 0 !important;
+}
 .pad-container {
  width: 100%; 
  padding-top: 5em; 
@@ -103,6 +108,9 @@
 }
 
 /* Podcast Section */
+#podcast .container {
+    padding-bottom: 0 !important;
+}
 #podcast .flex-container {
   display: flex
 }
