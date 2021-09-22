@@ -1,3 +1,11 @@
+.img {
+  position: absolute;
+  padding-left: 400px;
+  margin-top: 55px;
+  right: 24%;
+  z-index: -1;
+}
+
 .cont {
   height: 500px;
 }
