@@ -4,17 +4,7 @@
     padding-bottom: 4em;
 }
 
-.boxed {
-    position: relative;
-    background-color: #F5F5F5;
-    width: 60%;
-    height: 25em;
-    padding: 5em 4.5em;
-    color: #404040;
-    margin: 2em 0 2em;
-}
-
-.boxed p {
+.illustration-header p {
     color: #6f6957;
     margin-bottom: 0em !important;;
 }

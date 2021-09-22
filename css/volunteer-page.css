@@ -1,9 +1,14 @@
 /*Volunteer Page*/
+
+.positions-section {
+    background: #F4F3F2;
+}
+
 .bgd {
     padding-top: 1.4em; 
     padding-bottom: 1.4em;
     margin: -1em;
-    background-color: #F5F5F5;
+    /* background-color: #F5F5F5; */
 }
 
 .header {

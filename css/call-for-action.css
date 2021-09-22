@@ -1,11 +1,11 @@
 /* Call for Action Page */
-.header {
+/* .header {
     padding-top: 4em; 
     padding-bottom: 4em;
-}
+} */
 
 /* Header Textbox */
-.boxed {
+/* .boxed {
     position: relative;
     background-color: #F5F5F5;
     width: 65%;
@@ -29,10 +29,10 @@
 
 .img-position {
     position: absolute; z-index: -1;
-}
+} */
 
 /* Responsive Header Textbox */
-@media screen and (max-width: 1199px) {
+/* @media screen and (max-width: 1199px) {
     .boxed h4 {
       font-size: 1.4em;
     }
@@ -84,10 +84,10 @@
     .boxed p {
         font-size: 0.45em;
     }
-} 
+}  */
 
 /* Reponsive Image */
-.responsive {
+/* .responsive {
     width: 100%;
     height: auto;
-  }
+  } */

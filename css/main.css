@@ -172,3 +172,26 @@ text-align: center;
 }
 
 
+/* Illustration headers */
+.illustration-header {
+  background: linear-gradient(to right, #F4F3F2 80%, #FFFFFF 20%);
+}
+
+.illustration-header .content {
+  padding: 3rem;
+}
+
+.illustration-header img {
+  text-align: right;
+  height: 400px;
+}
+
+@media (max-width: 992px) {
+  .illustration-header {
+    background: #F4F3F2;
+  }
+
+  .illustration-header img {
+    display: none;
+  }
+}
