@@ -17,3 +17,20 @@
     width: 250px;
   }
 }
+
+/* More button */
+#see-more-button {
+  color: #AF8661;
+  font-size: larger;
+}
+
+#see-more-button:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+/* Down (chevron) arrow */
+#see-more-button i {
+  /* color: orangered; */
+  padding-left: 10px;
+}

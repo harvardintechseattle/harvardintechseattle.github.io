@@ -43,7 +43,7 @@ html {
 
 
 .bg-faded {
-    background-color: #f1f1f1;
+    background-color: #F4F3F2;
 }
 
 .section-heading .section-heading-upper {
@@ -88,7 +88,7 @@ html {
 
 .read-more-btn {
     line-height: 1.5;
-    color: #C2B280;
+    color: #AF8661;
     cursor: pointer;
     padding-left: 0;
     -webkit-user-select: none;
@@ -117,7 +117,7 @@ a:hover {
 
 /* More button */
 #see-more-button {
-    color: #C2B280;
+    color: #AF8661;
     font-size: larger;
 }
 
@@ -128,7 +128,7 @@ a:hover {
 
 /* Down (chevron) arrow */
 #see-more-button i {
-    color: orangered;
+    /* color: orangered; */
     padding-left: 10px;
 }
 
@@ -164,7 +164,7 @@ a:hover {
 }
 
 .list a {
-    text-decoration: underline #C2B280 2px;
+    text-decoration: underline #AF8661 2px;
     text-underline-offset: 5px;
 }
 
@@ -190,8 +190,12 @@ a:hover {
     }
 }
 
+.upcoming-Webinars {
+    background: #F4F3F2;
+}
+
 .upcoming-Webinars a {
-    color: #C2B280;
+    color: #AF8661;
 }
 
 
@@ -212,20 +216,29 @@ a:hover {
 }
 
 .upcoming-Webinars .card-body {
-    background-color: #f1f1f1;
+    /* background-color: #F4F3F2; */
 }
 
 .card-link {
-    color: #C2B280;
+    color: #AF8661;
 }
 
 
 /* -------------- Latest webinars */
 .latest-Webinars {
     width: 100%;
-    background-color: #f1f1f1;
+    /* background-color: #F4F3F2; */
+}
+
+.latest-Webinars .card-body {
+    background-color: #F4F3F2;
 }
 
 #webinar-list a {
     color: black;
+}
+
+/* Footer */
+.footer {
+    background-color: #F4F3F2;
 }

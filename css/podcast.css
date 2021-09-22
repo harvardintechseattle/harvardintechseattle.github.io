@@ -39,7 +39,7 @@
 
 
 .bg-faded {
-    background-color: #f1f1f1;
+    background-color: #F4F3F2;
 }
 
 .section-heading .section-heading-upper {
@@ -89,7 +89,7 @@
 
 .read-more-btn {
     line-height: 1.5;
-    color: #C2B280;
+    color: #AF8661;
     cursor: pointer;
     padding-left: 0;
     -webkit-user-select: none;
@@ -129,7 +129,7 @@ a:hover {
 
 /* More button */
 #see-more-button {
-    color: #C2B280;
+    color: #AF8661;
     font-size: larger;
 }
 
@@ -140,7 +140,7 @@ a:hover {
 
 /* Down (chevron) arrow */
 #see-more-button i {
-    color: orangered;
+    /* color: orangered; */
     padding-left: 10px;
 }
 
@@ -207,7 +207,7 @@ a:hover {
 }
 
 .card-link {
-    color: #C2B280;
+    color: #AF8661;
 }
 
 .card h6 {
@@ -218,7 +218,7 @@ a:hover {
 /* -------------- Latest Podcasts */
 .latest-Podcasts {
     width: 100%;
-    background-color: #f1f1f1;
+    background-color: #F4F3F2;
 }
 
 #webinar-list a {
