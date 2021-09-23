@@ -1,3 +1,15 @@
+/* Styling for the logo and the Harvard in Tech link in the logo-container */
+.logo-container {
+    margin-top: 1em
+}
+
+.logo-container .parent {
+    display: flex;
+}
+.logo-container .left, .logo-container .right {
+    flex: 1;
+}
+
 /* Font color of the items in the navbar */
 .nav-link {
   color: rgb(180,151,123) !important;
