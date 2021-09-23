@@ -196,7 +196,23 @@ text-align: center;
 
 .illustration-header img {
   text-align: right;
+  height: 338px;
+}
+
+.page-volunteer .illustration-header img {
+  height: 314px;
+}
+
+.page-call-for-action .illustration-header img {
   height: 400px;
+}
+
+.page-buzz .illustration-header img {
+  height: 308px;
+}
+
+.page-team .illustration-header img {
+  height: 276px;
 }
 
 @media (max-width: 992px) {
