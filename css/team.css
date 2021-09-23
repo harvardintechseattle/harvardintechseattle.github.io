@@ -82,6 +82,7 @@
 
 /* Add padding inside the card text container */
 .card-text {
+  text-align: center;
   padding: 0.2em 0.7em;
   height: 7em;
 }
@@ -90,8 +91,14 @@
   margin-bottom: -0.1em;
 }
 
+.card-text p.hbs {
+  font-style: italic;
+  color: gray !important;
+  margin-bottom: 1em;
+}
+
 .role {
-  color: #000000 !important;
+  color: #AF8661 !important;
 }
 
 .card-image {
@@ -103,9 +110,12 @@
   margin-right: auto;
 }
 
+img.card-image {
+  margin-bottom: 0.8em;
+}
+
 .linkedIn-pad {
-  margin-left: -0.2em !important;
-  margin-top: 0.1em;
+  text-align: center;
 }
 
 /* Styling the LinkedIn link */
