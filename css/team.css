@@ -57,6 +57,11 @@
 
 }
 
+/* Illustration banner adjustment */
+.page-team .illustration-header img {
+  height: 276px;
+}
+
 /* Style the counter cards */
 .card {
   box-shadow: 0 0.1em 0.3em 0 rgba(0, 0, 0, 0.2);

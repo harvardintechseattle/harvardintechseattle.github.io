@@ -21,7 +21,7 @@
 
     .intro .intro-text {
         left: 0;
-        width: 60%;
+        max-width: 23em;
         margin-top: 3rem;
         position: absolute;
     }
@@ -29,7 +29,6 @@
 
 @media (min-width: 1200px) {
     .intro .intro-text {
-        width: 45%;
     }
 }
 

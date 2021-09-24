@@ -1,4 +1,8 @@
 /* Call for Action Page */
+/* Illustration banner adjustment */
+.illustration-header img {
+  height: 400px;
+}
 /* .header {
     padding-top: 4em; 
     padding-bottom: 4em;

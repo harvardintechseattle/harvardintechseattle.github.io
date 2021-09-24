@@ -75,7 +75,10 @@
     text-decoration: none;
     color: black;
 }
-
+/* Illustration banner adjustment */
+.illustration-header img {
+  height: 314px;
+}
 /* Responsive Header Textbox */
 @media screen and (max-width: 1199px) {
     .boxed h4 {
