@@ -62,9 +62,9 @@ $(function () {
 
     // == Read More Modals ==
 
-    // Digital assets
+    // Space for sale
     // Set iframe attributes when the show instance method is called
-    $("#digitalAsset").on("show.bs.modal", function (event) {
+    $("#spaceForSale").on("show.bs.modal", function (event) {
         let button = $(event.relatedTarget); // Button that triggered the modal
         let url = button.data("video"); // Extract url from data-video attribute
 
@@ -75,6 +75,21 @@ $(function () {
     });
 
     // Remove iframe attributes when the modal has finished being hidden from the user
+    $("#spaceForSale").on("hidden.bs.modal", function () {
+        $("#spaceForSale iframe").removeAttr("src allow");
+    });
+
+    // Digital assets
+    $("#digitalAsset").on("show.bs.modal", function (event) {
+        let button = $(event.relatedTarget); // Button that triggered the modal
+        let url = button.data("video"); // Extract url from data-video attribute
+
+        $(this).find("iframe").attr({
+            src: url,
+            allow: "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        });
+    });
+
     $("#digitalAsset").on("hidden.bs.modal", function () {
         $("#digitalAsset iframe").removeAttr("src allow");
     });
