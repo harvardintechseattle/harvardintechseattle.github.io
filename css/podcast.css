@@ -22,13 +22,14 @@
     .intro .intro-text {
         left: 0;
         max-width: 23em;
-        margin-top: 3rem;
+        margin-top: 6rem;
         position: absolute;
     }
 }
 
 @media (min-width: 1200px) {
     .intro .intro-text {
+        margin-top: 8rem;
     }
 }
 
@@ -56,6 +57,10 @@
 
 .intro-text>p {
     text-align: left;
+}
+
+.intro-text #alumniText {
+    font-size: 1rem;
 }
 
 /**/

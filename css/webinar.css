@@ -19,20 +19,26 @@ html {
 
 @media (min-width: 992px) {
     .intro .intro-img {
-        width: 75%;
+        width: 65%;
         float: right;
     }
 
     .intro .intro-text {
         left: 0;
         max-width: 23em;
-        margin-top: 3rem;
+        margin-top: 5rem;
         position: absolute;
     }
 }
 
 @media (min-width: 1200px) {
+    .intro .intro-img {
+        width: 75%;
+    }
+
     .intro .intro-text {
+        max-width: 21em;
+        margin-top: 6rem;
     }
 }
 
@@ -43,12 +49,6 @@ html {
 
 .bg-faded {
     background-color: #F4F3F2;
-}
-
-.section-heading .section-heading-upper {
-    display: block;
-    font-size: 1rem;
-    text-align: left;
 }
 
 .section-heading .section-heading-lower {

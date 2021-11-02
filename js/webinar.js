@@ -62,9 +62,9 @@ $(function () {
 
     // == Read More Modals ==
 
-    // Space for sale
+    // Microsoft Cloud Intelligence/AIOps
     // Set iframe attributes when the show instance method is called
-    $("#spaceForSale").on("show.bs.modal", function (event) {
+    $("#microsoftCloud").on("show.bs.modal", function (event) {
         let button = $(event.relatedTarget); // Button that triggered the modal
         let url = button.data("video"); // Extract url from data-video attribute
 
@@ -75,6 +75,21 @@ $(function () {
     });
 
     // Remove iframe attributes when the modal has finished being hidden from the user
+    $("#microsoftCloud").on("hidden.bs.modal", function () {
+        $("#microsoftCloud iframe").removeAttr("src allow");
+    });
+
+    // Space for sale
+    $("#spaceForSale").on("show.bs.modal", function (event) {
+        let button = $(event.relatedTarget); // Button that triggered the modal
+        let url = button.data("video"); // Extract url from data-video attribute
+
+        $(this).find("iframe").attr({
+            src: url,
+            allow: "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        });
+    });
+
     $("#spaceForSale").on("hidden.bs.modal", function () {
         $("#spaceForSale iframe").removeAttr("src allow");
     });

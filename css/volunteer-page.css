@@ -63,7 +63,6 @@
     border-color: transparent;
     background-color: white;
     box-shadow: 0.2em 0.2em 1em #D4D4D4;
-    padding-top: 1.7em;
     padding-left: 1.5em;
     padding-right: 1.5em;
     text-align: left;
@@ -74,7 +73,45 @@
     font-weight: bold;
     text-decoration: none;
     color: black;
+
 }
+
+.w3-button:hover {
+   color: #AF8661;
+}
+
+.w3-button:focus {
+   outline:  none;
+}
+
+.modal-title {
+    padding-top:  1.5rem;
+}
+
+ul p, li {
+    font-size: 0.9rem;
+}
+
+li::marker {
+    color: #AF8661;
+    font-size: 1.3em;
+}
+
+.modal-button {
+    color: #AF8661;
+    border: none;
+    background-color: white;
+    padding: 1em;
+    padding-left: 2em;
+    text-decoration: underline;
+    border: none;
+}
+
+.modal-button:focus {
+   outline: none;
+}
+
+
 /* Illustration banner adjustment */
 .illustration-header img {
   height: 314px;
